@@ -44,7 +44,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
-image=cv2.imread("paris.jpg")
+image=cv2.imread("dog.png")
 plt.imshow(image)
 plt.title('original image')
 plt.axis('off')
